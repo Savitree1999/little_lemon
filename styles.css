@@ -1,0 +1,133 @@
+body {
+    background-color: #EDEFEE;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: #f5f9f7;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #495e57;
+}
+
+.p1 {
+    color: #f5f9f7;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a:link {
+    color: #495e57;
+    font-size: 2rem;               
+    text-decoration: none;    
+ }
+
+a:hover {
+    color: #9c943e;        
+    text-decoration: none;  
+ }
+ a:visited {
+    color: #12b780;
+    font-size: 2rem;               
+    text-decoration: none;    
+    text-shadow: #9c943e;
+ }
+
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    margin: 13px;
+    justify-content: center;
+    background-color:#f4ce14;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section {
+    display: flex;
+    border-radius: 10px;
+    margin: 13px;
+    justify-content: center;
+    background-color: #f5f9f7;
+}
+
+.section-img {
+    background-image: url("pasta4.jpg"); 
+}
+
+article {
+    flex: 1;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.info-container {
+    width: 30rem;
+    border-radius: 10px;
+    margin: 13px;
+    justify-content: center;
+    background-color:#f4ce14;
+}
+
+.img-info {
+    
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+article ul {
+    list-style: none;
+}
+
+.info-container:hover {
+    transform: scale(1.05, 1.1);
+    transition: 1s;
+
+}
+
+footer {
+    border-radius: 10px;
+    margin: 13px;
+    justify-content: center;
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.description {
+    text-align: end;
+    font-style: italic;
+    border-top: 2px solid #495E57;
+    
+}
